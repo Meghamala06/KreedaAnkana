@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Team Name -->
+    <EditText
+        android:id="@+id/etTeam"
+        android:hint="Enter Team Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Sport -->
+    <EditText
+        android:id="@+id/etSport"
+        android:hint="Enter Sport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Date -->
+    <EditText
+        android:id="@+id/etDate"
+        android:hint="Enter Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Message -->
+    <EditText
+        android:id="@+id/etMessage"
+        android:hint="Enter Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/btnAddChallenge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Challenge"/>
+
+    <!-- List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvChallenges"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

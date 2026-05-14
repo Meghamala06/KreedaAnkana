@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KreedaAnkana</string>
+    <string name="title_kreeda_ankana">Kreeda-Ankana</string>
+    <string name="btn_ground_calendar">Ground Calendar</string>
+    <string name="btn_book_slot">Book Slot</string>
+    <string name="btn_challenge_board">Challenge Board</string>
+    <string name="btn_score_wall">Score Wall</string>
+</resources>
